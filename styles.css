@@ -19,9 +19,7 @@ body {
   background: #fff;
 }
 
-.image-section img,
-.issues img,
-.cta-card img {
+.image-section img {
   width: 100%;
   display: block;
   height: auto;
@@ -114,7 +112,3 @@ body {
   box-shadow: inset 0 -3px 0 rgba(0,0,0,.25);
 }
 
-.bottom-cta-wrap {
-  background: var(--dark);
-  padding: 12px 14px 28px;
-}
