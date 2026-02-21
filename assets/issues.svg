@@ -1,0 +1,9 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='750' height='500' viewBox='0 0 750 500'>
+  <rect width='750' height='500' fill='#d9d9d9'/>
+  <text x='55' y='140' fill='#333' font-size='52' font-family='sans-serif'>応募がこない...</text>
+  <text x='420' y='190' fill='#333' font-size='52' font-family='sans-serif'>業者に頼んでも</text>
+  <text x='450' y='250' fill='#333' font-size='52' font-family='sans-serif'>成果が出ない...</text>
+  <text x='55' y='270' fill='#333' font-size='52' font-family='sans-serif'>面接ドタキャン</text>
+  <text x='55' y='330' fill='#333' font-size='52' font-family='sans-serif'>ばかり...</text>
+  <text x='80' y='450' fill='#111' font-size='54' font-weight='700' font-family='sans-serif'>ドライバー不足は年々加速</text>
+</svg>
