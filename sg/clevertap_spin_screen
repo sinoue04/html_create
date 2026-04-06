@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spin</title>
+<style>
+html, body {
+height: auto; /* ビューポートの高さ以上に伸びる */
+min-height: auto;
+}
+
+a:link, a:visited {
+color: #0052FF;
+}
+
+body {
+color: #333333;
+font-family: "SF Pro Display", "Roboto", sans-serif;
+line-height: 1.5;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px;
+margin: 0px 8px;
+text-align: left;
+padding-bottom: env(safe-area-inset-bottom);
+padding-bottom: constant(safe-area-inset-bottom); /* 古いiOS用 */
+}
+
+button {
+display: block;
+background-color: #0052FF;
+border: none;
+border-radius: 22px;
+color: white;
+font-weight: 600;
+height: 44px;
+margin: 12px 36px;
+padding: 0px 32px;
+text-align: center;
+width: calc(100% - 72px);
+}
+
+em {
+color: #0052FF; /* Blue color for the highlighted text */
+font-style: normal;
+}
+
+em.red {
+color: #EC4B4A; /* Red color for the highlighted text */
+}
+
+.title_black {
+font-size: 25px;
+font-weight: 600;
+line-height: 30px;
+color: black;
+margin-bottom: 16px;
+}
+
+.title_black.smaller {
+font-size: 20px;
+}
+
+.title_blue {
+font-size: 25px;
+font-weight: 600;
+line-height: 30px;
+color: #0052FF;
+margin-bottom: 16px;
+}
+
+.spacer {
+margin: 24px 0px;
+}
+
+
+.subtitle {
+font-size: 19px;
+font-style: normal;
+font-weight: 600;
+line-height: 23px;
+margin-top: 4px;
+margin-bottom: 4px;
+}
+
+.button-wrap {
+text-align: center;
+margin: 16px 0; /* ← ここを 16px から 16px 0 に */
+}
+
+.cta-button {
+display: block;
+width: calc(100% + 16px); /* 8px×2 を足す */
+margin-left: -8px; /* 左右8pxを打ち消す */
+margin-right: -8px;
+height: 44px;
+border-radius: 9999px;
+background-color: #0052FF;
+color: #fff;
+font-size: 17px;
+font-weight: 540;
+line-height: 44px;
+text-align: center;
+box-sizing: border-box; /* 念のため */
+}
+
+a.cta-button,
+a.cta-button:visited,
+a.cta-button:hover,
+a.cta-button:active {
+color: #ffffff !important;
+text-decoration: none;
+}
+
+
+p {
+margin-top: 12px;
+margin-bottom: 12px;
+}
+
+p.tight {
+margin-top: 4px;
+margin-bottom: 4px;
+}
+
+ul.benefits {
+list-style-type: none;
+padding: 0px;
+}
+
+/* List item with a custom bullet point image */
+ul.benefits li {
+align-items: center;
+background-image: url(https://dkcgfz454xnre.cloudfront.net/1723516160/assets/cc5cdbe4fe974ea9a76b56da1b54aece.png);
+background-position: left center;
+background-repeat: no-repeat;
+background-size: 44px auto;
+display: flex;
+min-height: 44px;
+padding: 6px 0px 6px 54px;
+}
+</style>
+</head>
+<body>
+<p class="title_black"> Earn and Withdraw SG with 4 Wheels! </p>
+
+
+<ul class="benefits">
+<li>
+<div>
+<div class="subtitle">1000x Wheel: </div>
+Bet $1—hit anywhere from 2x to a 1,000x jackpot
+</div>
+</li>
+<li>
+<div>
+<div class="subtitle">$1M Jackpot Wheel: </div>
+Win up to $1M
+</div>
+</li>
+<li>
+<div>
+<div class="subtitle">The Lucky Wheel:</div>
+Higher Odds for $100 and $1,000
+</div>
+</li>
+<li>
+<div>
+<div class="subtitle">High-Roller Wheel:</div>
+Withdrawable SG 97%+
+</div>
+</li>
+</ul>
+<p class="tight"> - Which one would you choose? </p>
+<p class="tight"> Daily 5+ spins on any wheel will boost your win rate!</p>
+
+<div class="spacer"></div>
+
+<p class="title_black"> 🔥 Want to win more? </p>
+<p> The world’s only reward game with rules like these: </p>
+<div class="spacer"></div>
+<div>
+<p> 💰 Cumulative SPIN payments increase your odds. Only payments with cash or crypto are eligible. Payments with Withdrawable SG are not eligible. </p>
+<p> 🏆 Your winning chances increase on the days your rank goes up in the Battle League. </p>
+<p> 💥 Invite more friends = higher odds. </p>
+</div>
+<div class="spacer"></div>
+
+<p class="title_black smaller"> Want to try all 4 Spins? </p>
+
+
+
+</body>
+</html>
