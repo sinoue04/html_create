@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign-Up Bonus</title>
+<style>
+body {
+background: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+font-family: "SF Pro Display", "Roboto", sans-serif;
+}
+.bonus-container {
+position: relative;
+width: 320px;
+height: auto;
+text-align: center;
+}
+.bonus-container img {
+width: 100%;
+height: auto;
+}
+.text {
+position: relative;
+color: white;
+font-weight: bold;
+text-align: center;
+margin: 0px 10px;
+}
+.header {
+bottom: 10px;
+font-size: 29px;
+color: #FCDB38;
+font-weight: semibold;
+margin-top: 35px;
+}
+.footer {
+top: 10px;
+font-size: 29px;
+color: white;
+margin-bottom: 16px;
+}
+.footer span {
+color: #FCDB38;
+}
+</style>
+</head>
+<body>
+<div class="bonus-container">
+<div class="text header">You received the $100 Sign-Up Bonus!</div>
+<img src="https://dshnp2dse9bug.cloudfront.net/hexagon_with_success_@3x.png" alt="Bonus Offer">
+<div class="text footer">Get the remaining <span>$600 bonuses</span> before they're gone!</div>
+</div>
+</body>
+</html>
